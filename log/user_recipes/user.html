@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 show-anti-ie"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8 show-anti-ie"> <![endif]-->
+<!--[if IE 8]>    <html xmlns:ng="http://angularjs.org" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+
+<head>
+  
+
+    <title>山丹丹花开红的菜谱_下厨房</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8;">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-itunes-app" content="app-id=460979760"/>
+    <meta name="baidu-site-verification" content="HNAbHIxmbo" />
+    <meta name="renderer" content="webkit">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script src="//dup.baidustatic.com/js/ds.js"></script>
+  
+
+
+  
+
+
+<link href="//ohfnc0uzy.qnssl.com/dist/3b37672433fda935cdf2.css" rel="stylesheet" type="text/css">
+
+<link href="//ohfnc0uzy.qnssl.com/dist/9197c4169d8ec3dd7da8.css" rel="stylesheet" type="text/css">
+
+  <!--[if IE 8]>
+  <script src="/js/2013/lib/es5-shim.min.js"></script>
+  <script src="/js/2013/lib/es5-sham.min.js"></script>
+  <script src="/js/2013/lib/console-polyfill.js"></script>
+  <script>
+    document.createElement('ng-include');
+    document.createElement('ng-pluralize');
+    document.createElement('ng-view');
+
+    // Optionally these for CSS
+    document.createElement('ng:include');
+    document.createElement('ng:pluralize');
+    document.createElement('ng:view');
+  </script>
+  <![endif]-->
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ecd4feb5c351cc02583045a5813b5142";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+
+<script type='text/javascript'>
+  var _vds = _vds || [];
+  window._vds = _vds;
+  (function(){
+    _vds.push(['setAccountId', '8187ff886f0929da']);
+    (function() {
+      var vds = document.createElement('script');
+      vds.type='text/javascript';
+      vds.async = true;
+      vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(vds, s);
+    })();
+  })();
+</script>
+
+</head>
+
+
+
+<body>
+
+<!--[if IE]>
+<div class="anti-ie hidden">
+  <div class="wrapper">
+    <div class="collapsed">
+    啊！页面乱了！因为下厨房不再支持IE8以下版本，我们推荐你<a target="_blank" href="https://ie.microsoft.com" rel="nofollow">更新你的浏览器</a>，或使用<a href="http://www.baidu.com/s?wd=%E6%B5%8F%E8%A7%88%E5%99%A8" rel="nofollow" target="_blank">其他浏览器</a>。
+    <a href="javascript:void(0)" class="button open">为什么</a>
+    </div>
+
+    <div class="expanded pure-g hidden">
+      <div class="pure-u-1-4">
+        <div class="title bold-font">
+        IE的故事
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="story ">
+          <img src="http://xcfstatic.qiniudn.com/pic/2013/ie-story.png" alt="IE的故事">
+        </div>
+      </div>
+      <div class="pure-u-1-4 align-right">
+        <a href="javascript:void(0)" class="normal-font gray-link close">关闭</a>
+      </div>
+    </div>
+  </div>
+</div>
+<![endif]-->
+
+<div class="popup-layer">
+
+
+  
+  <div class="reveal-modal-bg"></div>
+  
+
+  
+<div class="reveal-modal large normal-font" id="feedbackModal">
+  
+  <div class="reveal-modal-title-bar">
+    <div class="reveal-modal-title">意见反馈</div>
+    <a href="javascript:void(0)" class="close-reveal-modal" rel="nofollow"></a>
+  </div>
+  <div class="reveal-modal-main">
+    
+    
+    <form action="/feedback/create/" method="POST">
+      <textarea name="feedback" rows="3"></textarea>
+      <input type="hidden" name="xf" value="None">
+      <input type="submit" value="提交" class="button">
+    </form>
+  
+  
+  </div>
+
+</div>
+
+
+
+<div class="dish-popup-bg"></div>
+<div class="dish-popup" id="dishPopup">
+    <div class="dish-popup-close"><img src="/pic/2013/dish_close.gif" width="64" height="64"></div>
+    <div class="content page-container pure-g"></div>
+</div>
+
+<div id="report-modal"></div>
+
+</div>
+
+<div class="topbar-outer has-bottom-border">
+  <div class="topbar-container">
+    <div class="topbar">
+      
+
+
+
+  <div class="pure-g">
+    <div class="pure-u-1-6">
+      <a href="/" class="logo">下厨房</a>
+    </div>
+    <div class="pure-u-5-6">
+      <div class="float-left">
+          <form class="search" action="/search/">
+              <input type="text" name="keyword" class="typeahead float-left" value="" placeholder="搜索菜谱、食材">
+              <input type="hidden" name="cat" value="1001">
+              <input type="submit" value="搜菜谱" class="button float-left">
+          </form>
+      </div>
+      <div class="float-left ml20">
+          <ul class="site-nav plain pure-g">
+            <li class="pure-u"><a href="/" data-ga-event="公共页面/导航栏/$text">首页</a></li>
+            <li class="topbar-cats pure-u">
+            <a href="/category/" class="block-link" data-ga-event="公共页面/导航栏/$text"><span>菜谱分类</span></a>
+            <div class="topbar-cats-submenu hidden">
+              <div class="topbar-cats-submenu-bg">
+              
+                
+                <ul class="plain">
+                    <li class='topbar-cat-head'>常用主题</li>
+                    <li><a href="/category/40076/" title="家常菜菜谱大全" data-ga-event="公共页面/导航栏/$text">家常菜</a></li>
+                    <li><a href="/category/40077/" title="快手菜菜谱大全" data-ga-event="公共页面/导航栏/$text">快手菜</a></li>
+                    <li><a href="/category/40078/" title="下饭菜菜谱大全" data-ga-event="公共页面/导航栏/$text">下饭菜</a></li>
+                    <li><a href="/category/40071/" title="早餐菜谱大全" data-ga-event="公共页面/导航栏/$text">早餐</a></li>
+                    <li><a href="/category/30048/" title="减肥菜谱大全" data-ga-event="公共页面/导航栏/$text">减肥</a></li>
+                    <li><a href="/category/20130/" title="汤羹菜谱大全" data-ga-event="公共页面/导航栏/$text">汤羹</a></li>
+                    <li><a href="/category/51761/" title="烘焙菜谱大全" data-ga-event="公共页面/导航栏/$text">烘焙</a></li>
+                    <li><a href="/category/40073/" title="小吃菜谱大全" data-ga-event="公共页面/导航栏/$text">小吃</a></li>
+                </ul>
+                <ul class="plain">
+                    <li class='topbar-cat-head'>常见食材</li>
+                    <li><a href="/category/731/" title="猪肉做法大全" data-ga-event="公共页面/导航栏/$text">猪肉</a></li>
+                    <li><a href="/category/1136/" title="鸡肉做法大全" data-ga-event="公共页面/导航栏/$text">鸡肉</a></li>
+                    <li><a href="/category/1445/" title="牛肉做法大全" data-ga-event="公共页面/导航栏/$text">牛肉</a></li>
+                    <li><a href="/category/957/" title="鱼做法大全" data-ga-event="公共页面/导航栏/$text">鱼</a></li>
+                    <li><a href="/category/394/" title="鸡蛋做法大全" data-ga-event="公共页面/导航栏/$text">鸡蛋</a></li>
+                    <li><a href="/category/206/" title="土豆做法大全" data-ga-event="公共页面/导航栏/$text">土豆</a></li>
+                    <li><a href="/category/178/" title="茄子做法大全" data-ga-event="公共页面/导航栏/$text">茄子</a></li>
+                    <li><a href="/category/80/" title="豆腐做法大全" data-ga-event="公共页面/导航栏/$text">豆腐</a></li>
+                </ul>
+                <ul class="plain">
+                    <li class='topbar-cat-head'>时令食材</li>
+                    <li>
+                    <a href="/category/3109/" title="无花果做法大全" data-ga-event="公共页面/导航栏/$text">无花果</a>
+                    <span class="topbar-cat-score">
+                        10.0
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/5418/" title="羊做法大全" data-ga-event="公共页面/导航栏/$text">羊</a>
+                    <span class="topbar-cat-score">
+                        10.0
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/471/" title="山楂做法大全" data-ga-event="公共页面/导航栏/$text">山楂</a>
+                    <span class="topbar-cat-score">
+                        10.0
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/209/" title="柚子做法大全" data-ga-event="公共页面/导航栏/$text">柚子</a>
+                    <span class="topbar-cat-score">
+                        10.0
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/4359/" title="萝卜做法大全" data-ga-event="公共页面/导航栏/$text">萝卜</a>
+                    <span class="topbar-cat-score">
+                        9.9
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/5443/" title="牛做法大全" data-ga-event="公共页面/导航栏/$text">牛</a>
+                    <span class="topbar-cat-score">
+                        9.9
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/5310/" title="白洋葱做法大全" data-ga-event="公共页面/导航栏/$text">白洋葱</a>
+                    <span class="topbar-cat-score">
+                        9.5
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/570/" title="土鸡做法大全" data-ga-event="公共页面/导航栏/$text">土鸡</a>
+                    <span class="topbar-cat-score">
+                        9.4
+                    </span>
+                    </li>
+                </ul>
+                <div class="topbar-cats-submenu-bottom"><a href="/category/" data-ga-event="公共页面/导航栏/$text">查看全部分类</a></div>
+              
+              </div>
+            </div>
+            </li>
+            <li class="pure-u"><a href="/explore/menu/collect/" data-ga-event="公共页面/导航栏/$text">菜单</a></li>
+            <li class="pure-u"><a href="/activity/" data-ga-event="公共页面/导航栏/$text">作品动态</a></li>
+          </ul>
+        </div>
+        <div class="float-right clearfix">
+
+          <div class="user-action">
+              <a href="/auth/login/" data-ga-event="公共页面/导航栏/$text">登录</a>&nbsp;&nbsp;
+              <a href="/auth/apply/" data-ga-event="公共页面/导航栏/$text">注册</a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="page-outer">
+  <!--begin of page-container-->
+  <div class="page-container">
+    
+    
+
+
+
+<div class="pure-g pb40">
+  <!-- left avatar -->
+  <div class="pure-u-5-24 people-base-left avatar">
+    <img src="http://s2.cdn.xiachufang.com/647c29db20b84d868ae50883dc14e6c1_1080w_1080h.jpg?imageView2/1/w/160/h/160/interlace/1/q/90" alt="山丹丹花开红的厨房">
+  </div>
+  <!-- left avatar -->
+
+  <!-- middle info -->
+  <div class="pure-u-5-8 font12 pr30">
+    <h1 class="page-title mb10">
+      山丹丹花开红的厨房
+    </h1>
+
+    <!-- basic info -->
+    <div class="gray-font">
+      <div>
+          
+            <span class="mr10 display-inline-block">女</span>
+
+            <span class="mr10 display-inline-block"><i class="icon-profile icon-profile-home"></i>江苏,南京</span>
+
+
+            <span class="mr10 display-inline-block"><i class="icon-profile icon-profile-job"></i>教师</span>
+
+          <span class="display-inline-block">2017-09-11 加入</span>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+    <!-- basic info -->
+
+    <!-- desc -->
+      <div class="people-base-desc dark-gray-font mt10">老知青一枚！上海，南京之间！</div>
+    <!-- desc -->
+  </div>
+  <!-- middle info -->
+
+  <!-- right extra -->
+  <div class="pure-u-1-6 align-center people-base-right pos-r">
+    <div class="people-base-follow">
+          <a class="button large-button follow-button" href="/auth/login/">关注</a>
+    </div>
+    <div class="follow-wrap block-bg p10 pl15 pr15 pure-g w100">
+      <div class="pure-u-1-2 following-num">
+        <div class="font12 dark-gray-font mb10">关注的人</div>
+        <div><a href="/cook/122573542/following_users/" class="bold font16">50</a></div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="font12 dark-gray-font mb10">被关注</div>
+        <div><a href="/cook/122573542/followers/" class="bold font16">115</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- right extra -->
+</div>
+
+<!-- people profile nav -->
+<div class="mb35">
+  
+<div class="tab-bar pure-g" id="">
+  
+  <ul class="plain pure-g">
+        <li class="">
+          <a href="/cook/122573542/">
+            <span>概况</span>
+          </a>
+        </li>
+        <li class=" active">
+          <span>菜谱 0</span>
+        </li>
+        <li class="">
+          <a href="/cook/122573542/cooked/">
+            <span>作品 73</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="/cook/122573542/recipe_list/">
+            <span>菜单</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="/cook/122573542/comments/">
+            <span>留言板</span>
+          </a>
+        </li>
+  </ul>
+</div>
+
+</div>
+<!-- people profile nav -->
+
+
+
+
+
+<div class="people-created-main">
+
+
+
+</div>
+
+
+
+
+
+  </div>
+  <!-- end of page-container -->
+</div>
+
+<div class="bottom-outer">
+  <div class="bottom-container">
+   
+  </div>
+</div>
+
+
+
+<div class="footer-outer">
+  <div class="footer-container">
+     
+  
+  <div class="bottom-ad">
+  
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3543566',
+        container: s,
+        size: '1000,90',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  <div class="bottom-ad">
+    <!-- 广告位：PC-底部-底通2 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3543568',
+        container: s,
+        size: '1000,90',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  
+
+  <div class="pure-g buttons">
+    <a href="/page/join_market/" class="button">入驻下厨房市集</a>
+    <a href="/contact/" class="button">广告合作</a>
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u-3-4">
+      <a data-ga-event="公共页面/footer/$text" href="http://blog.xiachufang.com" target="_blank" title="美食生活杂志">美食生活杂志</a> &nbsp;
+      <a href="/job/" target="_blank" title="厨房工作">厨房工作</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/principle/" target="_blank" title="社区指导原则">社区指导原则</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="https://site.douban.com/106718/room/1939571/" target="_blank" title="下厨房出版的书">下厨房出版的书</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/faq/" target="_blank" title="帮助中心">帮助中心</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/contact/" target="_blank" title="联系我们">联系我们</a> &nbsp;
+        <a href="/auth/login/" title="意见反馈" rel="nofollow">意见反馈</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/privacy_policy/" target="_blank" title="隐私声明">隐私声明</a>
+    </div>
+    <div class="pure-u-1-4 align-right">
+      <div class="social-likes">
+        <a href="https://weibo.com/xiachufang" target="_blank" rel="nofollow">
+          <img src="https://ohfnc0uzy.qnssl.com/simpleicons/sinaweibo.svg" alt="微博" title="微博">
+        </a>
+        &nbsp;
+        <a href="https://twitter.com/xiachufang" target="_blank" rel="nofollow">
+          <img src="https://ohfnc0uzy.qnssl.com/simpleicons/twitter.svg" alt="Twitter" title="Twitter">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-3-4">
+      Copyright &copy; xiachufang.com &nbsp;
+      <a href="http://www.miibeian.gov.cn" class="gray-link" target="_blank" rel="nofollow">京ICP备13009078号-1</a> &nbsp;
+      京公网安备11010802022310号
+    </div>
+    <div class="pure-u-1-4 align-right">
+      唯有美食与爱不可辜负
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+  
+  <script src="//ohfnc0uzy.qnssl.com/dist/jquery-bundle-bd0724298e4be1d30238.js"></script>
+  
+
+<script src="//ohfnc0uzy.qnssl.com/dist/js-2013-anonymous-bundle-0905a01fd220401a8217.js"></script>
+
+<div id='color_timer'></div>
+
+
+
+</body>
+
+</html>
