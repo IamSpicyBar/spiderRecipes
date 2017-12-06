@@ -58,7 +58,7 @@ class RecipeDetail(CrawlSpider):
         data = self.sql.query(command)
 
         for i, recipe in enumerate(data):
-            if i < 20:
+            if recipe[0] > 2550:
                 url = self.base_url + recipe[2]
                 utils.log(url)
                 yield Request(

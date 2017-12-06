@@ -27,10 +27,6 @@ class Recipe(CrawlSpider):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0',
     }
 
-    page = 1
-    user_id = 0
-    user_url = '/'
-
     def __init__(self, *a , **kw):
         super(Recipe, self).__init__(*a, **kw)
 
@@ -62,14 +58,13 @@ class Recipe(CrawlSpider):
         data = self.sql.query(command)
 
         for i, user in enumerate(data):
-            self.page = 1
-            self.user_id = user[2]
-            self.user_url = user[3]
-            url = self.base_url + user[3] + 'created/?page=%d' % self.page
+            page = 1
+            url = self.base_url + user[3] + 'created/?page=%d' % page
             utils.log(url)
             yield Request(
                 url = url,
                 headers = self.header,
+                meta = {"page":page, "user_id":user[2], "user_url":user[3]},
                 callback = self.parse_all,
                 errback = self.error_parse,
             )
@@ -83,6 +78,10 @@ class Recipe(CrawlSpider):
             file_name = '%s/user.html' % (self.dir_name)
             self.save_page(file_name, response.body)
             recipes = response.xpath("//div[@class='recipes-280-full-width-list']/ul/li").extract()
+
+            page =  response.meta["page"]
+            u_url = response.meta["user_url"]
+            u_id = response.meta["user_id"]
             
             for recipe in recipes:
                 sel = Selector(text = recipe)
@@ -90,7 +89,6 @@ class Recipe(CrawlSpider):
                 name = sel.xpath("//p[@class='name ellipsis red-font']/a/text()").extract_first().strip()
                 url = sel.xpath("//p[@class='name ellipsis red-font']/a/@href").extract_first()
                 item_id = url.split('/')[-2]
-                u_id = self.user_id
                 dt = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 msg = (None, name, url, item_id, u_id, dt)
                 command = ("INSERT IGNORE INTO {} "
@@ -98,16 +96,18 @@ class Recipe(CrawlSpider):
                             "VALUES(%s,%s,%s,%s,%s,%s)".format(config.item_list_table)
                 )
                 self.sql.insert_data(command, msg)
-
-            self.page += 1
-            
-            yield Request(
-                url = self.base_url + self.user_url + 'created/?page=%d' % self.page,
-                headers = self.header,
-                callback = self.parse_all,
-                errback = self.error_parse,
-                dont_filter = true,
-            )   
+                
+            page += 1
+            if page < 4:
+                
+                yield Request(
+                    url = self.base_url + u_url + 'created/?page=%d' % page,
+                    meta = {"page":page, "user_id":u_id, "user_url":u_url},
+                    headers = self.header,
+                    callback = self.parse_all,
+                    errback = self.error_parse,
+                    dont_filter = True,
+                )   
 
     def error_parse(self, faiture):
         request = faiture.request

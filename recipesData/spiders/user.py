@@ -54,13 +54,16 @@ class User(Spider):
     def start_requests(self):
         active_url = '/feature/cook/active/'
         url = self.start_url + active_url
+        N = 5
         
-        yield Request(
-            url = url,
-            headers = self.header,
-            callback = self.parse_all,
-            errback = self.error_parse,
-        )
+        for index in range(1,N):
+            yield Request(
+                url = url,
+                headers = self.header,
+                callback = self.parse_all,
+                errback = self.error_parse,
+                dont_filter = True,
+            )
 
 
     def parse_all(self, response):
@@ -81,6 +84,8 @@ class User(Spider):
                             "VALUES(%s,%s,%s,%s,%s)".format(config.users_urls_table)
                 )
                 self.sql.insert_data(command, msg)
+
+                
 
 
 
