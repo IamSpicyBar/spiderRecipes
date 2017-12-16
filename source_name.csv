@@ -1,0 +1,836 @@
+source_id,source_name
+6,Sea crab
+7,Fenpi
+9,Yangmei
+13,Hazel mushrooms
+21,abalone
+25,yolk
+35,rice flour
+41,Shrimp
+45,Yellow rice
+49,kelp
+50,salmon
+63,Bean skin
+74,chrysanthemum
+76,River prawn
+80,tofu
+90,Purple rice
+94,Stinky tofu
+95,Flower gum
+98,green beans
+104,chicken
+111,Japanese tofu
+115,Old duck
+117,Konjac
+120,jellyfish
+121,Kale
+122,Carambola
+125,Squid
+129,Jelly
+132,Burdock
+134,Black beans
+139,Bracken
+141,Winter bamboo shoots
+145,Lamb chops
+151,Melon
+155,Bitter melon
+156,Lamb slice
+175,Mushrooms
+176,Scallops
+177,Okara
+178,eggplant
+179,grass carp
+188,Chives
+197,Sticky rice
+206,potato
+208,corn
+209,grapefruit
+211,spinach
+214,Lentils
+215,Grass
+220,pig ear
+227,Ribs
+234,Red beans
+235,Chestnut
+253,Malan
+256,Chuanbei
+264,Seaweed
+274,duck
+275,duck
+278,Three yellow chicken
+280,soy
+284,Anchovy
+285,Sprout
+292,quail eggs
+297,White chocolate
+298,Corn shoots
+300,almond
+306,Cabbage
+315,Vegetarian chicken
+324,Dachshund
+330,Oyster
+333,pig heart
+348,Kidney beans
+350,black rice
+364,asparagus
+370,oat
+374,Ducks
+391,Winter vegetables
+394,egg
+400,oatmeal
+402,Crab sticks
+416,Agrocybe
+423,Pig hand
+427,Fish seeds
+429,Pearl mushrooms
+431,Snow cabbage
+435,Purple cabbage
+441,Salted egg
+443,Pleurotus eryngii
+449,Red pepper
+454,Loofah
+455,Pumpkin
+466,Mushrooms
+468,Mushrooms
+469,Prawn
+471,Hawthorn
+474,hazelnut
+478,Crabs
+482,Shrimp seeds
+497,Whole wheat flour
+498,Fritters
+501,Okra
+503,Lotus root
+523,Fish head
+524,Yam
+533,Duck blood
+534,Bamboo shoots
+539,carp
+541,Refers to the day pepper
+559,spaghetti
+567,whitebait
+570,Chicken
+576,Donkey meat
+580,Pig meat
+601,Pepper
+602,Durian
+605,Bullfrog
+609,Pea tip
+612,Sirloin
+616,Shimeji
+626,Mushrooms
+632,Purple sweet potato
+647,arugula
+648,Fans
+653,pickle
+655,Clams
+657,Rice noodles
+658,Plum dried vegetables
+662,green pepper
+666,rape
+671,Ham
+674,Lamb
+676,Sheep liver
+688,cranberry
+689,Songhua egg
+692,Water chestnuts
+696,Striped bass
+700,Flour
+715,Bone
+718,tomato
+719,rabbit
+725,celery
+727,flour
+731,pork
+733,Pig liver
+735,Pork belly
+742,Pig lung
+743,Rice
+747,Sweet potatoes
+769,Cashew nuts
+787,broccoli
+790,Winter squash
+792,Meat
+808,Tendons
+811,eel
+816,Digestive biscuits
+818,Bream
+819,Green beans
+821,Blackfish
+822,sugar cane
+826,Shrimp
+831,apple
+833,blueberry
+838,Dried radish
+846,Glutinous rice
+854,Buckwheat flour
+865,Pork waist
+876,Pig blood
+881,mushroom
+882,Pickled radish
+883,Pig bone
+886,taro
+894,Shepherd's purse
+898,Pig skin
+908,Stomach
+918,Leek
+922,frozen tofu
+925,cantaloupe
+935,pea
+937,banana
+938,steak
+940,Mustard
+947,Yuba
+953,Shuttle crab
+957,fish
+975,Floss
+981,Chrysanthemum
+982,Parsley
+989,Buckwheat
+997,Bacon
+998,Flammulina
+1001,Yuan onion
+1002,Arctic shrimp
+1003,With fish
+1020,Lotus seeds
+1022,Rice cake
+1024,Dried shrimp
+1025,noodles
+1028,melon
+1031,chocolate
+1032,Peach
+1036,pineapple
+1049,kimchi
+1053,Shrimp skin
+1063,Green beans
+1065,peanut
+1066,Turtle
+1068,dark chocolate
+1070,Cherry radish
+1072,Cod
+1082,Orange
+1084,Duo fish
+1090,corn flour
+1101,watermelon
+1105,Chinese cabbage
+1109,Hericium
+1127,Chicken heart
+1128,Strawberry
+1131,Chicken liver
+1135,Small peppers
+1136,chicken
+1137,carrot
+1138,vegetables
+1141,Job's tears
+1150,Pickled cabbage
+1158,chili
+1159,Sea white shrimp
+1162,Wheat germ
+1163,Knife beans
+1176,Baby food
+1183,crab
+1187,Coprinus
+1190,Duck legs
+1191,Shrimp
+1195,papaya
+1196,mustard
+1209,broad bean
+1210,carrot
+1213,Spinach
+1214,Radish
+1215,Beans
+1216,Day lily vegetables
+1222,Black-bone chicken
+1224,Spring bamboo shoots
+1227,chicken gizzards
+1229,straw mushroom
+1230,Toon
+1238,Rutabaga
+1243,Sheep scorpion
+1244,herring
+1246,Passion fruit
+1252,bacon
+1261,Chicken wings
+1263,Oil tofu
+1266,Mango
+1268,Anchovy
+1280,Dragon fruit
+1282,Low-gluten flour
+1283,Fentiao
+1285,tuna
+1292,Virgin fruit
+1295,Green garlic
+1296,North tofu
+1299,lemon
+1304,Three layers of meat
+1311,Cherry
+1320,Red pepper
+1334,Mei beans
+1337,Chicken feet
+1338,pickle
+1343,Perilla
+1355,lettuce
+1356,Olive dish
+1364,Cucumber
+1370,Dutch beans
+1376,Simi
+1380,Wild pepper
+1383,Fungus
+1389,White fungus
+1391,Millet pepper
+1407,Cuttlefish
+1411,Razor fish
+1415,Bamboo shoots
+1419,walnut
+1423,pear
+1425,Lactone tofu
+1437,Bacon
+1442,squab
+1445,beef
+1447,Pig tongue
+1452,lily
+1461,Crab mushrooms
+1463,Fish Ball
+1468,conch
+1476,Fresh shellfish
+1478,Bean sprouts
+1481,White mushrooms
+1485,brown rice
+1488,scallop
+1491,Crucian carp
+1495,Sea cucumber
+1497,Saury
+1509,Chicken legs
+1516,water bamboo
+1520,milk powder
+1522,Oil
+1524,Paprika
+1525,soy sauce
+1526,black pepper powder
+1530,warm water
+1534,mineral water
+1539,Soft white sugar
+1543,Seaweed
+1552,Scallion
+1559,Clear water
+1560,Allspice
+1563,Ginger
+1565,Licorice
+1569,Black pepper
+1574,MSG
+1581,Hot sauce
+1582,boiling water
+1583,Zongye
+1586,South milk
+1589,Thyme
+1594,Barbecue sauce
+1597,rum
+1599,Suanpian
+1607,Brandy
+1612,Lotus leaves
+1616,vinegar
+1619,Basil
+1620,Curry powder
+1633,salt
+1639,Laoganma
+1645,condensed milk
+1649,Light milk
+1650,seafood sauce
+1652,Apple cider vinegar
+1657,Realistic
+1668,pure water
+1671,Spicy sauce
+1680,Cumin powder
+1691,Ginger
+1692,Chopped pepper
+1697,Watercress
+1708,Geranium
+1709,cocoa powder
+1721,Balsamic vinegar
+1722,Rosemary
+1725,Salad oil
+1727,Wet starch
+1732,toothpick
+1735,Boiling water
+1739,Sweet sauce
+1740,Vegetable oil
+1746,Pepper water
+1748,Curry sauce
+1752,Ginger block
+1756,tea
+1757,raisin
+1760,Tapioca
+1762,Codonopsis
+1765,Black pepper
+1770,A high degree of liquor
+1777,Soy sauce
+1779,Fuel consumption
+1780,Stuffed with wine
+1790,Soup species
+1792,oil
+1798,Tsaoko
+1801,Shacha sauce
+1805,Salty salt
+1807,sesame
+1817,Salt
+1820,crystal sugar
+1826,Sesame oil
+1828,Vinegar
+1832,Shrimp paste
+1836,Ginger powder
+1843,Sesame
+1853,Emei
+1855,coffee powder
+1856,Cream of tartar
+1859,pepper
+1869,White sugar
+1871,butter
+1875,Cinnamon
+1877,Rice vinegar
+1885,Horseshoe powder
+1888,Pepper noodles
+1899,Corn oil
+1908,sour cream
+1913,Miso
+1925,starch
+1927,Very fresh sauce
+1929,ketchup
+1930,baking soda
+1933,Ginger
+1934,Thirteen incense
+1941,Crude salt
+1945,Scallions
+1947,Stock
+1950,Qi Zi
+1959,Polygonatum
+1963,Pickle
+1964,Garlic
+1968,cold water
+1977,Baking powder
+1978,wine
+1983,Agar
+1992,Cheese powder
+1994,Garlic sauce
+2002,shallot
+2004,mint
+2005,Pepper
+2007,cheese powder
+2020,Barbecue sauce
+2022,Mushroom essence
+2028,parsley
+2031,Brown sugar
+2032,Baileys
+2033,Salt and pepper
+2039,Salad dressing
+2040,brown sugar
+2044,Steam fish oil
+2048,Pepper oil
+2054,Fine sugar
+2055,Fennel
+2063,Bean sauce
+2068,yeast
+2072,Ginger juice
+2073,sugar
+2075,Chili oil
+2078,Potato starch
+2079,Thousand Island dressing
+2081,chili sauce
+2082,Dry starch
+2090,Cinnamon powder
+2103,White sugar
+2110,honey
+2123,Water Starch
+2125,Yogurt
+2126,Garlic
+2127,Shallot
+2129,Onion silk
+2132,Curry block
+2134,Black pepper broken
+2143,Citrus
+2148,mustard
+2149,Red Wine
+2151,White pepper
+2157,Sweet chili sauce
+2158,Fish sauce
+2160,Sufu
+2170,Rice wine
+2173,Chicken sauce
+2181,Powdered sugar
+2190,lard
+2196,Jiang Rong
+2200,Hua Diao wine
+2206,Peppercorns
+2213,Pixian watercress
+2217,pepper powder
+2220,Hot water
+2221,Red onions
+2224,Shaoxing wine
+2238,Glutinous rice flour
+2248,Cream cheese
+2250,Liquor
+2255,Pepper noodles
+2257,corn starch
+2260,beer
+2264,Dried pepper
+2265,White wine
+2267,Icing sugar
+2269,garlic
+2275,Minced garlic
+2276,sugar
+2279,Scallion
+2291,Plum
+2297,Vegetable oil
+2301,Peanut oil
+2302,Bubbly ginger
+2312,Ice cubes
+2313,date
+2315,pepper
+2316,milk
+2321,very light blue
+2333,Bay leaves
+2336,olive oil
+2337,Bean paste
+2348,salted black beans
+2350,peanut butter
+2351,star anise
+2354,Cumin tablets
+2356,Pork sauce
+2359,baking powder
+2362,soy sauce
+2365,Ice water
+2371,maltose
+2376,Osmanthus
+2384,Cardamom
+2389,White vinegar
+2394,Dried red peppers
+2399,Cooking wine
+2405,clove
+2406,Teriyaki sauce
+2407,Sunflower seed oil
+2409,Chicken powder
+2419,Ginger
+2432,baking soda
+2438,water
+2445,White pepper
+2446,Green tea powder
+2448,ginger
+2452,Sushi vinegar
+2455,purslane
+2458,Sprite
+2459,sea salt
+2472,Matcha
+2484,Root vegetables
+2487,Soy products
+2488,Mushrooms
+2490,fruit
+2503,Wheat kernel
+2549,Fern root powder
+2558,Spore cabbage
+2618,pig intestine
+2629,beef brisket slice
+2653,Duck wings
+2657,Child food
+2667,Octopus
+2669,Plum
+2677,Western cuisine
+2688,sea urchin
+2714,Freshwater shrimp
+2819,coconut
+2825,Mulberry
+2885,Baked cake
+2892,Snow lotus son
+2915,Oxtail
+2918,lobster
+2948,persimmon
+2949,Salted fish
+2959,Borage
+2980,Yacon fruit
+2986,pistachio
+3035,meatball
+3042,Dried fish
+3063,Cabbage heart
+3080,Millet
+3109,Fig
+3113,Amaranth
+3117,honeysuckle
+3119,Long Lee fish
+3129,Noodles
+3140,Avocado
+3155,Old hen
+3172,lotus root starch
+3173,litchi
+3196,Natto
+3222,Peach gum
+3240,Grouper
+3244,flounder
+3249,leg of lamb
+3254,Lilac fish
+3271,Melon seeds kernels
+3286,grape
+3297,Pork tenderloin
+3298,Radish seedlings
+3314,frog
+3315,Sophora japonica
+3362,Sea shrimp
+3392,snapper
+3402,Seto urine shrimp
+3515,Maple sugar
+3599,Aberdeen ginger
+3648,Pot at the end of material
+3654,Brown sugar
+3705,White bean curd
+3755,cotton candy
+3757,Angelica
+3783,Angelica
+3789,Concentrated soup treasure
+3862,Garlic powder
+3867,Astragalus
+3885,Matsutake
+3905,Coke
+3920,Hemp pepper
+3949,Sake
+3956,rose
+3957,Tomato sauce
+3980,Thai sweet sauce
+3992,Rainbow
+4020,Pho
+4068,Duck tongue
+4088,Egg white
+4092,Sea Coconut
+4099,Boletus
+4102,Instant noodles
+4120,Houttuynia
+4126,Arctic Bay
+4139,Olives
+4159,Udon noodle
+4187,Red mushrooms
+4214,loach
+4314,Dictyophora
+4320,Morel
+4350,Snow clams
+4359,White radish
+4379,Ganoderma lucidum
+4380,Hawaiian fruit
+4389,Duck eggs
+4404,Muyu flowers
+4421,True
+4437,Mangosteen
+4444,Lunch meat
+4458,Turkey
+4471,pomegranate
+4595,Ome
+4597,Pui days
+4627,Other meats
+4628,Goose
+4631,Dairy products
+4634,Honey red beans
+4642,Blending oil
+5151,quail
+5152,fish maw
+5154,Agaricus blazei
+5155,Roselle flowers
+5156,Jasmine
+5157,raspberry
+5158,Loquat
+5159,Chick peas
+5160,pumpkin seeds
+5162,Cordyceps flower
+5182,Cold water
+5185,Oreo
+5187,Oil splash spicy child
+5191,chocolate beans
+5192,Self-raising flour
+5193,Basil
+5194,Chicken thighs
+5195,Gold like high powder
+5196,dumpling skin
+5197,Sweet potato starch
+5198,Red bell pepper
+5199,small potato
+5200,Crispy sausage
+5202,Almonds
+5203,Garlic rice
+5204,Kimchi
+5205,Coconut
+5206,Fresh squid
+5207,Fresh milk
+5208,White rice
+5209,Walnut broken
+5210,Red chili
+5211,Old wine
+5212,nut
+5214,Melted butter
+5215,seasoning
+5216,Chicken pieces
+5218,Red bean stuffing
+5219,Shou Ganmian surface
+5221,butter
+5223,Stuffing
+5225,Hang pepper
+5226,chocolate sauce
+5227,Peanuts broken
+5228,Gherkin
+5229,spices
+5230,Dry osmanthus
+5232,Coriander at the end
+5233,Candied dates
+5235,Cooked egg yolks
+5236,little pumpkin
+5237,Diced ham
+5239,Yellow pepper
+5240,Green bean sprouts
+5241,Conversion syrup
+5242,syrup
+5243,black olive
+5244,Shanghai Green
+5245,Orange juice
+5247,Sweet beans
+5248,green tea
+5249,Coconut milk
+5251,Wheat flour
+5252,pork loin
+5253,almond slices
+5254,Celery
+5255,Monascus powder
+5256,Small yellow croaker
+5257,Ordinary flour
+5258,Abalone juice
+5260,Cabbage leaves
+5261,Longan
+5262,black tea
+5263,vegetables
+5264,Green pepper
+5265,Ham
+5266,Finger biscuits
+5267,Onion broken
+5268,Bean paste
+5269,vermicelli
+5270,Tizi dry
+5271,Chives flowers
+5272,Yolk liquid
+5273,Sweet-scented osmanthus
+5274,Small onion
+5275,pigment
+5276,Longan dry
+5278,Wonton skin
+5279,Mud bean paste
+5280,Parsley
+5281,Yam
+5282,clams
+5283,Almonds broken
+5284,taro
+5285,carrot strips
+5286,coconut powder
+5287,Diced carrots
+5288,Fish
+5289,Rye flour
+5290,Meat pieces
+5291,Sweet corn kernels
+5294,Cucumber wire
+5295,seasoning
+5296,cream
+5297,Celery leaves
+5298,lemon peel
+5299,Vanilla sugar
+5300,Basil leaves
+5301,Almond powder
+5303,Yellow bean sprouts
+5304,Coconut silk
+5305,Ham sausage
+5306,Cold rice
+5307,Garlic
+5310,White onions
+5311,Water Yi
+5313,Purple onion
+5314,Purple potato mud
+5315,Pure milk
+5316,Chinese cabbage
+5317,Black sesame powder
+5318,corn kernels
+5319,Muscle powder
+5320,lemongrass
+5322,Crayfish
+5323,In the powder
+5327,Orange peel
+5328,Lemon dander
+5331,Nutmeg
+5332,Pizza sauce
+5333,Haricot vert
+5334,White sesame
+5336,Black tea bag
+5338,Coconut milk
+5339,Clam
+5340,Big potatoes
+5341,cinnamon
+5342,seaweed strips
+5343,Salted egg yolk
+5344,Black sesame seeds
+5345,Watermelon skin
+5346,Coconut juice
+5348,Lemon juice
+5349,Black and white sesame seeds
+5351,Unsalted butter
+5352,vanilla
+5354,sweet corn
+5355,Spring rolls
+5356,Basil broken
+5357,Pork
+5360,Rice
+5361,Bell pepper
+5362,Overnight meal
+5363,Strawberry jam
+5364,Grapefruit
+5365,Egg liquid
+5366,Chicken legs
+5367,Left rice
+5368,Blueberry jam
+5369,Fashi
+5370,Cheese slices
+5371,Small row
+5373,Geelydin
+5374,Pork chop
+5375,Beef tenderloin
+5376,Dry fungus
+5377,pasta
+5378,Bread slices
+5379,Lime
+5380,peanut kernel
+5381,Pepper
+5382,Round eggplant
+5383,Chopped parsley
+5384,Bread crumbs
+5385,Soil eggs
+5386,Swill water
+5387,White rice
+5388,Total protein
+5389,Dried mushrooms
+5390,Mushroom
+5391,Chicken breast
+5392,Pig ribs
+5393,Fresh mushrooms
+5394,Green peppers
+5395,Long eggplant
+5396,Chicken wings
+5399,pig
+5400,Fish powder
+5403,Tendon
+5407,Kale
+5408,Salt
+5415,Garlic
+5417,xo sauce
+5420,Other spices
+5422,Meter
+5423,Big yellow croaker
+5427,Longan
+5429,milk
+5434,Natural yeast
+5436,Seasonal vegetables
+5437,Fish film
+5438,Mushrooms
+5444,dried fruit
+5445,Radish
+5446,Oil bean skin
+5450,Korean hot sauce
+5451,dried fruit
+5455,Miscellaneous flour
+5464,Seasonal fruit

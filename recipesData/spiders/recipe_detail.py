@@ -58,7 +58,7 @@ class RecipeDetail(CrawlSpider):
         data = self.sql.query(command)
 
         for i, recipe in enumerate(data):
-            if recipe[0] > 2550:
+            if recipe[0] > 8999 and recipe[0] < 10000:
                 url = self.base_url + recipe[2]
                 utils.log(url)
                 yield Request(
@@ -73,6 +73,8 @@ class RecipeDetail(CrawlSpider):
 
     def parse_all(self, response):
         utils.log(response.url)
+        if response.status == 429:
+            raise CloseSpider('Too much request, IP banned')
         if response.status == 200:
             file_name = '%s/recipe.html' % (self.dir_name)
             self.save_page(file_name, response.body)

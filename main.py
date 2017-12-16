@@ -28,3 +28,4 @@ if __name__ == '__main__':
         #cmdline.execute('scrapy crawl user_urls'.split())
         #cmdline.execute('scrapy crawl user_recipes'.split())
         cmdline.execute('scrapy crawl recipe_detail'.split())
+        #cmdline.execute('scrapy crawl newuser_urls'.split())

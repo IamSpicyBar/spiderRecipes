@@ -58,16 +58,17 @@ class Recipe(CrawlSpider):
         data = self.sql.query(command)
 
         for i, user in enumerate(data):
-            page = 1
-            url = self.base_url + user[3] + 'created/?page=%d' % page
-            utils.log(url)
-            yield Request(
-                url = url,
-                headers = self.header,
-                meta = {"page":page, "user_id":user[2], "user_url":user[3]},
-                callback = self.parse_all,
-                errback = self.error_parse,
-            )
+            if i > 200:
+                page = 1
+                url = self.base_url + user[3] + 'created/?page=%d' % page
+                utils.log(url)
+                yield Request(
+                    url = url,
+                    headers = self.header,
+                    meta = {"page":page, "user_id":user[2], "user_url":user[3]},
+                    callback = self.parse_all,
+                    errback = self.error_parse,
+                )
 
 
 
@@ -98,7 +99,7 @@ class Recipe(CrawlSpider):
                 self.sql.insert_data(command, msg)
                 
             page += 1
-            if page < 4:
+            if page < 3:
                 
                 yield Request(
                     url = self.base_url + u_url + 'created/?page=%d' % page,
