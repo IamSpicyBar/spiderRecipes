@@ -1,6 +1,7 @@
 # spiderRecipes
+This project is aimed at collecting data for recipe recommendation project, which is a machine learning project based on a real website.
 
-Project catalog:
+### Project catalog:
 
     recipesData/
         scrapy.cfg          //configuration file automatically created    
@@ -35,5 +36,5 @@ Crawling speed is set in settings.py
 
 If you want to output csv files, use getdata.py
 
-The last part of getdata.py is to translate unique ingredients list to English, delete them
-#### Created by Yichen, updated on 12/17/2017
+The last part of getdata.py is to translate unique ingredients list to English, please delete them
+#### Updated on 12/17/2017
