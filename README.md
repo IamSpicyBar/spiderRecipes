@@ -24,3 +24,16 @@ Project catalog:
                     recipe_detail.py    //collect recipe details
         log/
             //log stored here
+
+
+## How to run?
+First change database configuration in config.py
+
+Then run main.py, execute each Scrapy command one by one
+
+Crawling speed is set in settings.py
+
+If you want to output csv files, use getdata.py
+
+The last part of getdata.py is to translate unique ingredients list to English, delete them
+#### Created by Yichen, updated on 12/17/2017
